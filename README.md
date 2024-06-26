@@ -1,3 +1,7 @@
+# Minecraft FPGA Test
+
+Minecraft の Mod で FPGA を再現するための試作プログラムです。
+擬似的なネットリストを読み込んで、ANDゲートや全加算器、RS-FFを再現できます。
 
 ```bash
 kotlinc src/main.kt -include-runtime -d main.jar
